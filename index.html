@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="description" content="Multi-disciplined Developer freelancer" />
+  <meta name="keywords" content="mxp.studio, 3d artist, blender, render, graphic, design, digital trasformation, 3d freelancer" />
+
+  <!-- Title -->
+  <title>mxp.studio - Home</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="stylesheet/basic.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheet/loading.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <link rel="shortcut icon" href="images/fav-01.png">
+</head>
+<body>
+  <header>
+    <div class="cursor"></div>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+      <div class="logo-container">
+        <img src="images/logomp.png" alt="Logo" class="logol">
+      </div>
+      <svg class="loading-icon" width="60px" height="60px" viewBox="0 0 80 80">
+        <circle class="loading-circle-bg" cx="40" cy="40" r="34" fill="none" stroke="#6b6b6b80" stroke-width="9"></circle>
+        <circle class="loading-circle" cx="40" cy="40" r="34" fill="none" stroke="#d8d8d8" stroke-width="9" stroke-dasharray="213" stroke-dashoffset="213"></circle>
+      </svg>
+    </div>
+  </header>
+  <!-- Section Started -->
+  <div class="video-background">
+    <video autoplay loop>
+      <source src="images/header_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div id="content-mobile">
+      <img src="images/Hello.png" alt="Mobile Image">
+      <p>I'm a Multi-disciplined Developer</p>
+    </div>
+  </div>
+  <div class="content">
+    <div id="logo-container">
+      <div id="logo">mxp.studio</div>
+      <a href="images/mxp.studio-portfolio.pdf" download>
+        <div id="hiddenText">Download <strong>PDF</strong></div>
+      </a>
+    </div>
+  <!-- Top Menu -->
+  <div id="menu-toggle">
+    <img src="images/plus.png" alt="Toggle Menu">
+  </div>
+  <div id="menu">
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="works.html">Works</a></li>
+       <li><a href="info.html">Info</a></li>
+     </ul>
+    <div id="menu-close">
+        <img src="images/closeicon.png" alt="Close Menu" oncontextmenu="return false;" ondragstart="return false;" onmousedown="return false;">
+    </div>
+  </div>
+<!--Footer-->
+<div class="footer">
+  <div class="contact-info">
+    <div class="contact-icons">Follow me</div>
+    <div class="social-icons">
+      <a href="#" target="_blank"><img src="images/instaicon.png" alt="Social Icon 1"></a>
+      <a href="#" target="_blank"><img src="images/twittericon.png" alt="Social Icon 2"></a>
+      <a href="#" target="_blank"><img src="images/linkeicon.png" alt="Social Icon 3"></a>
+      <a href="#" target="_blank"><img src="images/behaicon.png" alt="Social Icon 4"></a>
+    </div>
+  </div>
+  <div class="contact-details">
+    <div class="email">Send <a href="mailto:info@mxp.studio.it">Email</a></div>
+  </div>
+</div>
+  <!-- Scripts -->
+  <script src="scripts/loading.js"></script>
+  <script src="scripts/delay.js"></script>
+  <script src="scripts/herovideo.js"></script>
+  <script src="scripts/smart.js"></script> 
+  <script src="scripts/toggle.js"></script>
+  <script src="scripts/animations.js"></script>
+</body>
+</html>
